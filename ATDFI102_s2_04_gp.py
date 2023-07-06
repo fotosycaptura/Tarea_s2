@@ -2,6 +2,15 @@
 Script creado por Xavier Fuentes.
 Github: https://github.com/fotosycaptura
 Codificado en Python 3.11.3
+---------------------------------------------------------------------
+E4: Construye un programa en Python que calcule y muestre por pantalla 
+el área y el perímetro de un triángulo, cuyas longitudes de sus lados
+son ingresados por el usuario (usa la fórmula de Herón). El resultado
+deberá estar redondeado a 2 decimales.
+
+S = (a+b+c)/2
+Area = Raiz (S * (S-a) * (S-b) * (S-c)
+
 """
 import math as mt
 def pregunta_valor(msg: str)->float:

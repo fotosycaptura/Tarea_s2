@@ -2,6 +2,11 @@
 Script creado por Xavier Fuentes.
 Github: https://github.com/fotosycaptura
 Codificado en Python 3.11.3
+------------------------------------------------------------
+E8: Construye un programa en Python que le pida al usuario por 
+separado el día de nacimiento, el mes de nacimiento y el año 
+de nacimiento, e imprima por pantalla la fecha de nacimiento 
+en formato dd-mm-aaaa.
 """
 def pregunta_valor(msg: str, minimo: int, largo: int, tipo: str)->int:
     valor = 0.0

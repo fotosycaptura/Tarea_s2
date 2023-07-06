@@ -2,6 +2,15 @@
 Script creado por Xavier Fuentes.
 Github: https://github.com/fotosycaptura
 Codificado en Python 3.11.3
+---------------------------------------------------------------------------
+E5: Construye un programa en Python que calcule y muestre por pantalla el 
+perímetro de la circunferencia, el área del círculo, y el volumen de 
+la esfera, que se pueden construir a partir del radio ingresado por el 
+usuario. Utiliza a  con el valor 3.141593 y redondea los resultados a 2 
+decimales de precisión.
+El perímetro de la circunferencia corresponde al cálculo 2*pi*radio, 
+el área del círculo es pi*radio^2, 
+y el volumen de la esfera se calcula como (4*pi*radio^3)/3.
 """
 import math as mt
 

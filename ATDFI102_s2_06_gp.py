@@ -2,7 +2,12 @@
 Script creado por Xavier Fuentes.
 Github: https://github.com/fotosycaptura
 Codificado en Python 3.11.3
+-----------------------------------------------------------------------
+E6: Construye un programa en Python, descomponga un número en unidades,
+decenas, centenas y unidades de mil, a partir de un número entero de 4
+cifras ingresado por el usuario.
 """
+
 def pregunta_valor(msg: str)->float:
     valor = 0.0
     bl_resp = True

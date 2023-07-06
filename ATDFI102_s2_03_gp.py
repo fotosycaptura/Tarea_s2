@@ -2,6 +2,14 @@
 Script creado por Xavier Fuentes.
 Github: https://github.com/fotosycaptura
 Codificado en Python 3.11.3
+--------------------------------------------------------------------------------
+Construye un programa en Python que calcule y muestre por pantalla el área de un 
+trapecio, cuyas bases y altura son ingresados por el usuario. El resultado deberá 
+estar redondeado a 3 decimales.
+
+La fórmula para calcular el área de un trapecio es:
+Area = ((Base Mayor + base menor)/2)*h
+
 """
 def pregunta_valor(msg: str)->float:
     valor = 0.0

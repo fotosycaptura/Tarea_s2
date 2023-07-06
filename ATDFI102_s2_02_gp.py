@@ -2,7 +2,12 @@
 Script creado por Xavier Fuentes.
 Github: https://github.com/fotosycaptura
 Codificado en Python 3.11.3
+----------------------------------------------------------------------
+E2: Construye un programa en Python que calcule y muestre por pantalla 
+la media aritmética (o promedio simple) de tres números ingresados 
+por el usuario. El resultado deberá estar redondeado a 1 decimal.
 """
+
 def pregunta_valor(msg: str)->float:
     valor = 0.0
     bl_resp = True
