@@ -11,7 +11,7 @@ def pregunta_valor(msg: str)->float:
             bl_resp = True
     return valor
 
-def calcular_area_triangulo(a: float, b: float, c: float)->list:
+def calcular_area_y_perimetro_triangulo(a: float, b: float, c: float)->list:
     resultado = []
     s = (a+b+c)/2.0
     perimetro = a+b+c
@@ -24,7 +24,7 @@ lado_1 = pregunta_valor('Ingresa la longitud del primer lado: ')
 lado_2 = pregunta_valor('Ingresa la longitud del segundo lado: ')
 lado_3 = pregunta_valor('Ingresa la longitud del tercer lado: ')
 
-area_perimetro = calcular_area_triangulo(lado_1, lado_2, lado_3)
+area_perimetro = calcular_area_y_perimetro_triangulo(lado_1, lado_2, lado_3)
 
 print(f'El área del triángulo es: {area_perimetro[0]} cms2')
 print(f'El perímetro del triángulo es: {area_perimetro[1]} cms2')
