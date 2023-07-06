@@ -1,3 +1,8 @@
+"""
+Script creado por Xavier Fuentes.
+Github: https://github.com/fotosycaptura
+Codificado en Python 3.11.3
+"""
 import math as mt
 def pregunta_valor(msg: str)->float:
     valor = 0.0

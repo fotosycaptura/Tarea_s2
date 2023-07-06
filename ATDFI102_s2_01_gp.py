@@ -1,3 +1,8 @@
+"""
+Script creado por Xavier Fuentes.
+Github: https://github.com/fotosycaptura
+Codificado en Python 3.11.3
+"""
 import math
 try:
     numero = int(input('Ingrese un número: '))

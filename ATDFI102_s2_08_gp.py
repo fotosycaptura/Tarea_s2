@@ -1,3 +1,8 @@
+"""
+Script creado por Xavier Fuentes.
+Github: https://github.com/fotosycaptura
+Codificado en Python 3.11.3
+"""
 def pregunta_valor(msg: str, minimo: int, largo: int, tipo: str)->int:
     valor = 0.0
     bl_valido = False
@@ -28,7 +33,7 @@ def pregunta_valor(msg: str, minimo: int, largo: int, tipo: str)->int:
                         bl_valido = True
                     case _:
                         print('Valor no válido.')
-                        
+
             else:
                 print(f'Se esperaba un número de {largo} caracteres.')
         except ValueError:
